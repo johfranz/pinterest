@@ -1,2 +1,8 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<%= render 'layouts/header' %>
+<div class="container">
+	<div class="jumbotron center">
+		<h1>Welcome to Pinteresting!</h1>
+		<%= link_to "Log In", "#", class: "btn btn-default btn-lg" %>
+		<%= link_to "Sign Up", "#", class: "btn btn-danger btn-lg" %>
+	</div>
+</div>
